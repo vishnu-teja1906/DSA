@@ -1,6 +1,6 @@
 class Solution:
     def countCommas(self, n: int) -> int:
-        if len(str(n)) <4:
+        if n<=999:
             return 0
         res=0
         
